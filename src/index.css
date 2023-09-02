@@ -1,0 +1,83 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color-scheme: light dark;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  --header-color:#02173E;
+  --button-color:#074AC7;
+  --default-color: #fff;
+  --section-back-color:#C0D6FF;
+  --foter-text-color:#AFEBF9;
+  --footer-btn-color:#074AC7;
+  --high-z-index:100;
+  --low-z-index:99;
+  --text-font: 18px;
+  --body-font:'DM Sans', sans-serif;
+}
+
+body{
+  background:#fff;
+}
+a {
+  /* text-decoration: inherit; */
+  text-decoration: none;
+}
+.positionBodyDiv{
+  position:absolute;
+  width:100vw;
+  height:500px;
+  background:green;
+}
+button:focus,
+button:focus-visible {
+
+}
+
+.h2Size{
+  font-size:35px;
+}
+.pointer{
+  cursor:pointer;
+}
+.button-hover{
+  -moz-transition:all 0.2s ease-in 0.2s;
+  transition:all 0.2s ease-in 0.2s;
+  -webkit-transition:all 0.2s ease-in 0.2s;
+  -ms-transition:all 0.2s ease-in 0.2s;
+  -o-transition:all 0.2s ease-in 0.2s;
+}
+.button-hover:hover{
+  opacity:.5;
+}
+/* Styles for light color scheme */
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: #f0f0f0;
+    color: #333;
+  }
+}
+
+/* Styles for dark color scheme */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #121212;
+    color: #ccc;
+  }
+}
+.check{
+  width:100vw;
+  height:200px;
+  background:green;
+}
