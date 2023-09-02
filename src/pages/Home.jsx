@@ -79,7 +79,7 @@ export default function Home(){
                 
                 <section>
                     <div className="aboutDiv flex items-center justify-center">
-                        <Stack columnGap={'100px'} rowGap={'40px'} direction={['column', 'row']} maxWidth={'1200px'} px={['30px', '100px', '100px']}>
+                        <Stack columnGap={['100px', '50px', '100px']} rowGap={'40px'} pt={[59, null, null]} direction={['column', 'row']} maxWidth={'1200px'} px={['30px', '100px', '100px']}>
                             <Stack flex={1} position={'relative'}>
                                 <Stack alignSelf={'center'} width={['80%', '100%']} alignItems={'center'} justifyContent={'center'} position={'relative'} className="">
                                     <img width={'100%'} src={frame1}/>
