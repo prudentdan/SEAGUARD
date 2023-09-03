@@ -112,11 +112,11 @@
       padding-top: 224px;
       padding-bottom: 224px;
       font-family: var(--body-font);
-      background:#fff;
+      background:#fff; 
   }
   
   .aboutDivIn{
-      width:80%;
+      width:88%;
       min-height:598px;
       margin:auto;
       display: flex;
@@ -309,7 +309,7 @@
   }
   
   .serviceDivIn{
-      width:80%;
+      width:88%;
       margin:auto;
   }
   .serviceTitle{
@@ -363,7 +363,7 @@
   }
   
   .picsServiceDivIn{
-      width:80%;
+      width:88%;
       min-height:200px;
       display:flex;
       flex-direction: row;
@@ -426,7 +426,7 @@
   }
   
   .feedbackDvIn{
-      width:80%;
+      width:88%;
       margin:auto;
   }
   .feedbackDetails{
@@ -541,7 +541,7 @@
       justify-content: center;
   }
   .bookACalOverDivIn{
-      width:80%;
+      width:88%;
       margin:auto;
       text-align: center;
   }
@@ -578,8 +578,8 @@
   
     /* aboutPagecss */
     .aboutTitleDiv{
-      width:100vw;
-      min-height:300px;
+      width:100%;
+      position: relative;
       background-image:url(./about.png) ;
       background-size:cover;
       background-position: top center;
@@ -591,14 +591,13 @@
   }
   .aboutTitleImgOver{
       background-color:rgba(0, 0, 0, 0.8);
-      width:100vw;
-      min-height:300px;
+      width:100%;
+      height: 100%;
       position:absolute;
       z-index: 2;
   }
   .aboutTitleImgOverIn{
-      width:80%;
-      height:300px;
+      width:88%;
       text-align: left;
       margin:auto;
   }
@@ -615,7 +614,7 @@
     }
   
     .aboutContentDivIn{
-      width:80%;
+      width:88%;
       margin:auto;
       min-height:300px;
   }
@@ -633,7 +632,7 @@
       background:#fff;
   }
   .aboutDivValuesIn{
-      width:80%;
+      width:88%;
       height:100%;
       margin:auto;
       background:var(--section-back-color);
@@ -650,7 +649,7 @@
           flex-direction: column;
       }
       .aboutContentDivIn, .aboutDivValuesIn{
-          width:80%;
+          width:88%;
           margin:auto;
       }
       .aboutDivValuesIn{
@@ -678,7 +677,7 @@
   }
   
   .portfolioDivIn{
-      width:80%;
+      width:88%;
       min-height:150px;
       margin:auto;
       margin-top:50px;
@@ -699,12 +698,12 @@
   }
   /* contactCss */
   .contactGetDivPar{
-      width:100vw;
+      width:100%;
       min-height:500px;
       background:#fff;
   }
   .contactGetDiv{
-      width:80%;
+      width:88%;
       margin:auto;
       min-height:300px;
       color:var(--header-color);
@@ -749,11 +748,11 @@
       background:var(--header-color);
   }
   .googleMapDiv{
-      width:100vw;
+      width:100%;
       height:500px;
   }
   .googleMapDivIn{
-      width:80%;
+      width:88%;
       height:100%;
       margin:auto;
   }
@@ -814,7 +813,7 @@
 }
 
 .brandsLogoIn{
-    width:80%;
+    width:88%;
     margin:auto;
 }
 .imgDiv{
