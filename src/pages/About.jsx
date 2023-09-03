@@ -19,51 +19,51 @@ export default function About(){
                     </Stack>
                 </div>
             </Stack>
-            <Stack py={[60, 80 ,131]} className="aboutContentDiv">
-                <div className="aboutContentDivIn">
+            <Stack py={[60, 80 ,131]} alignItems={'center'} className="aboutContentDiv">
+                <div className="aboutContentDivIn" style={{ maxWidth: 1200}}>
                     <Typography fontSize={[28, 38, 48]} fontWeight={700} color={'#000'}>Who we are</Typography>
-                    <Typography mt={[18, 24, 32]} fontSize={[18, 20, 24]} lineHeight={'133.33%'}>We are professional cargo superintending, cargo inspecting and cargo surveying company registered in Nigeria and with foreign links. </Typography>
+                    <Typography mt={[18, 20, 32]} fontSize={[18, 20, 20]} lineHeight={'133.33%'}>We are professional cargo superintending, cargo inspecting and cargo surveying company registered in Nigeria and with foreign links. </Typography>
 
-                    <Typography fontSize={[18, 20, 24]} lineHeight={'133.33%'} mt={25}>By virtue of our operations and services, we represent terminal operators, importers, underwriters and P & I clubs. Our staffs are dedicated, trained and experienced marine surveyors, cargo superintendents and marine claims managers. Our services are specially designed to serve those who valued and take management of their marine risk and marine claims management serious. Our technical services which will take care of all your shipping, port operations, insurance and marine logistics are listed below:</Typography>
+                    <Typography fontSize={[18, 20, 20]} lineHeight={'133.33%'} mt={25}>By virtue of our operations and services, we represent terminal operators, importers, underwriters and P & I clubs. Our staffs are dedicated, trained and experienced marine surveyors, cargo superintendents and marine claims managers. Our services are specially designed to serve those who valued and take management of their marine risk and marine claims management serious. Our technical services which will take care of all your shipping, port operations, insurance and marine logistics are listed below:</Typography>
 
                     <Stack mt={[32]} rowGap={30} direction={['', 'row']}>
                         <Stack flex={1}>
-                            <Typography fontSize={[18, 20, 24]} display={'flex'} flexDirection={'row'} alignItems={'center'} gap={10}>
+                            <Typography fontSize={[18, 20, 20]} display={'flex'} flexDirection={'row'} alignItems={'center'} gap={10}>
                                 <span style={{ fontSize: 14}}>
                                     ●
                                 </span>
                                 Draft Survey Services
                             </Typography>
 
-                            <Typography fontSize={[18, 20, 24]} display={'flex'} flexDirection={'row'} alignItems={'center'} gap={10}>
+                            <Typography fontSize={[18, 20, 20]} display={'flex'} flexDirection={'row'} alignItems={'center'} gap={10}>
                                 <span style={{ fontSize: 14}}>
                                     ●
                                 </span>
                                 Bunker/Ullage Survey Services
                             </Typography>
 
-                            <Typography fontSize={[18, 20, 24]} display={'flex'} flexDirection={'row'} alignItems={'center'} gap={10}>
+                            <Typography fontSize={[18, 20, 20]} display={'flex'} flexDirection={'row'} alignItems={'center'} gap={10}>
                                 <span style={{ fontSize: 14}}>
                                     ●
                                 </span>
                                 Cargo Inspection Service
                             </Typography>
 
-                            <Typography fontSize={[18, 20, 24]} display={'flex'} flexDirection={'row'} alignItems={'center'} gap={10}>
+                            <Typography fontSize={[18, 20, 20]} display={'flex'} flexDirection={'row'} alignItems={'center'} gap={10}>
                                 <span style={{ fontSize: 14}}>
                                     ●
                                 </span>
                                 Cargo Condition Survey
                             </Typography>
 
-                            <Typography fontSize={[18, 20, 24]} display={'flex'} flexDirection={'row'} alignItems={'center'} gap={10}>
+                            <Typography fontSize={[18, 20, 20]} display={'flex'} flexDirection={'row'} alignItems={'center'} gap={10}>
                                 <span style={{ fontSize: 14}}>
                                     ●
                                 </span>
                                 Damaged Cargo/ Loss Survey
                             </Typography>
 
-                            <Typography fontSize={[18, 20, 24]} display={'flex'} flexDirection={'row'} alignItems={'center'} gap={10}>
+                            <Typography fontSize={[18, 20, 20]} display={'flex'} flexDirection={'row'} alignItems={'center'} gap={10}>
                                 <span style={{ fontSize: 14}}>
                                     ●
                                 </span>
@@ -72,42 +72,42 @@ export default function About(){
                         </Stack>
 
                         <Stack flex={1}>
-                            <Typography fontSize={[18, 20, 24]} display={'flex'} flexDirection={'row'} alignItems={'center'} gap={10}>
+                            <Typography fontSize={[18, 20, 20]} display={'flex'} flexDirection={'row'} alignItems={'center'} gap={10}>
                                 <span style={{ fontSize: 14}}>
                                     ●
                                 </span>
                                 Cargo Monitor/Tracking
                             </Typography>
 
-                            <Typography fontSize={[18, 20, 24]} display={'flex'} flexDirection={'row'} alignItems={'center'} gap={10}>
+                            <Typography fontSize={[18, 20, 20]} display={'flex'} flexDirection={'row'} alignItems={'center'} gap={10}>
                                 <span style={{ fontSize: 14}}>
                                     ●
                                 </span>
                                 Port Liaison Services 
                             </Typography>
 
-                            <Typography fontSize={[18, 20, 24]} display={'flex'} flexDirection={'row'} alignItems={'center'} gap={10}>
+                            <Typography fontSize={[18, 20, 20]} display={'flex'} flexDirection={'row'} alignItems={'center'} gap={10}>
                                 <span style={{ fontSize: 14}}>
                                     ●
                                 </span>
                                 P & I Claims Services
                             </Typography>
 
-                            <Typography fontSize={[18, 20, 24]} display={'flex'} flexDirection={'row'} alignItems={'center'} gap={10}>
+                            <Typography fontSize={[18, 20, 20]} display={'flex'} flexDirection={'row'} alignItems={'center'} gap={10}>
                                 <span style={{ fontSize: 14}}>
                                     ●
                                 </span>
                                 Cargo Claims Management
                             </Typography>
 
-                            <Typography fontSize={[18, 20, 24]} display={'flex'} flexDirection={'row'} alignItems={'center'} gap={10}>
+                            <Typography fontSize={[18, 20, 20]} display={'flex'} flexDirection={'row'} alignItems={'center'} gap={10}>
                                 <span style={{ fontSize: 14}}>
                                     ●
                                 </span>
                                 Salvage Disposal Management
                             </Typography>
 
-                            <Typography fontSize={[18, 20, 24]} display={'flex'} flexDirection={'row'} alignItems={'center'} gap={10}>
+                            <Typography fontSize={[18, 20, 20]} display={'flex'} flexDirection={'row'} alignItems={'center'} gap={10}>
                                 <span style={{ fontSize: 14}}>
                                     ●
                                 </span>

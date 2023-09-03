@@ -11,7 +11,7 @@ import youtube from '../assets/youtube.png'
 import facebook from '../assets/facebook.png'
 import twitter from '../assets/twitter-square.png'
 import linkedIn from '../assets/linkedin.png'
-import { Button, IconButton, Stack, SwipeableDrawer, Typography, List, Collapse, ListItemButton } from "@mui/material";
+import { Button, IconButton, Stack, SwipeableDrawer, Typography, Collapse, } from "@mui/material";
 
 
 export default function Header(){
@@ -48,7 +48,6 @@ export default function Header(){
                                 <Link to="/Services2" style={{ color: '#074ac7', fontSize: 'inherit', fontFamily: 'inter'}}> <i className="bi bi-chevron-right"></i> Protection</Link>
                                 <Link to="/Services3" style={{ color: '#074ac7', fontSize: 'inherit', fontFamily: 'inter'}}><i className="bi bi-chevron-right"></i> Claims</Link>
                                 <Link to="/Services4" style={{ color: '#074ac7', fontSize: 'inherit', fontFamily: 'inter'}}><i className="bi bi-chevron-right"></i> Tamper Proof</Link>
-                                <Link to="/Portfolio" style={{ color: '#074ac7', fontSize: 'inherit', fontFamily: 'inter'}}><i className="bi bi-chevron-right"></i> Portfolio</Link>
                             </Stack>
                         </Collapse>
 
@@ -136,7 +135,6 @@ export default function Header(){
                                 <Link to="/Services2"><li className="block px-4 py-2 hover:bg-blue-100">Protection</li></Link>
                                 <Link to="/Services3"><li className="block px-4 py-2 hover:bg-blue-100">Claims</li></Link>
                                 <Link to="/Services4"><li className="block px-4 py-2 hover:bg-blue-100">Tamper Proof</li></Link>
-                                <Link to="/Portfolio"><li className="block px-4 py-2 hover:bg-blue-100">Portfolio</li></Link>
                                 </ul>
                             </div>
                         </div>
