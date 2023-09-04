@@ -21,9 +21,9 @@ export default function Services4(){
                 </div>
             </Stack>
 
-            <Stack bgcolor={'#fff'} width={'100%'} py={128} alignItems={'center'}>
+            <Stack bgcolor={'#fff'} width={'100%'} py={[70, 90, 128]} alignItems={'center'}>
                 <Stack gap={[20, 26, 38]} maxWidth={1200} width={'88%'}>
-                    <Typography lineHeight={'120%'} fontSize={[28, 36, 48]} fontWeight={700} color={'#000'}>
+                    <Typography lineHeight={'120%'} fontSize={[26, 32, 48]} fontWeight={700} color={'#000'}>
                         Tamper Proof Devices
                     </Typography>
 

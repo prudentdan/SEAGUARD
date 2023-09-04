@@ -59,7 +59,7 @@ export default function ProjectGallery(){
             <Stack minHeight={[ 250, 304, 384]} className="aboutTitleDiv" sx={{ background: `url(${Projects})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'center'}}>
                 <div className=" aboutTitleImgOver">
                     <Stack direction={'row'} pt={[130, 164, 184 ]} alignItems={'center'} minHeight={['100%']} className="aboutTitleImgOverIn flex">
-                        <h2 className="aboutTitle" style={{fontFamily: 'inter'}}>Contact</h2>
+                        <h2 className="aboutTitle" style={{fontFamily: 'inter'}}>Project Portfolio</h2>
                     </Stack>
                 </div>
             </Stack>
