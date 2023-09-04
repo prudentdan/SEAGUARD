@@ -12,7 +12,7 @@ import Twitter from '../assets/twitter-square_footer.png'
 import LinkedIn from '../assets/linkedin_footer.png'
 import KeyboardIconRight from '../assets/Keyboard arrow right.png'
 
-const Form = styled(TextField)({
+export const Form = styled(TextField)({
     background: '#AFEBF9',
     color: '#02173E',
     border: 0,
