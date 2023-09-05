@@ -12,11 +12,12 @@ import facebook from '../assets/facebook.png'
 import twitter from '../assets/twitter-square.png'
 import linkedIn from '../assets/linkedin.png'
 import { Button, IconButton, Stack, SwipeableDrawer, Typography, Collapse, } from "@mui/material";
-
+import { useNavigate } from "react-router-dom";
 
 export default function Header(){
     const [drawerState, setDrawerState] = useState(false)
     const [collapsibleState, setCollapsibleState] = useState(false)
+    const History = useNavigate()
     return (
         <>
         <header className="header">
@@ -143,7 +144,7 @@ export default function Header(){
                         <Link to="/Contact"><li>Contact</li></Link>
                         <Link to="/ProjectGallery"><li>Project Gallerry</li></Link>
 
-                        <Button disableElevation variant="contained" color="primary" sx={{
+                        <Button onClick={() => History('/contact')} disableElevation variant="contained" color="primary" sx={{
                             width: [150, 150, 150, 203],
                             height: [40, 40, 46, 53],
                             fontSize: 14,
@@ -151,7 +152,7 @@ export default function Header(){
                             display: ['none', 'none', 'block']
                          
                         }}>
-                            Free Quote
+                            Contact Us
                         </Button>
 
                         <IconButton onClick={() => setDrawerState(true)} sx={{ color: '#074AC7', aspectRatio: 1, display: ['flex', 'flex', 'none']}}>
